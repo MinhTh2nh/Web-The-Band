@@ -1,0 +1,52 @@
+/* PC */
+@media (min-width: 1024px) {
+    
+}
+/* Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+/* Moblie */
+@media (max-width: 740px) {
+    .main-header{
+        overflow: hidden;
+    }
+    .main-header li {
+        display: block;
+    }
+    .main-header-bell{
+        display: none;
+    }
+    #about-section .about-text {
+        font-size: var(--font-15px);
+        margin-top: 25px;
+        text-align: justify!important;
+        padding: 50px 10px;
+    }
+    #slider-container{
+        height: 360px;
+    }
+    #slider-container img {
+        overflow: clip;
+        vertical-align: middle;
+
+    }
+    #slider-container , #header,.about-section-content ,.tour-section ,#footer ,#about-section
+    {
+        display: inline-block;   
+        width: 740px;
+    }
+    .map-section , #footer{
+        width: 740px;
+    }
+    #footer {
+        text-align: center!important;
+    }
+    .row {
+        margin-right: -0;
+        margin-left: -0;
+    }
+    .m-btn {
+        margin-right: 8px;
+    }
+}
