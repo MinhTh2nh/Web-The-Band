@@ -49,7 +49,9 @@
     /* Ke thua tat ca chieu cao  */
     display: inherit;
 }
-
+#mobileMenu{
+    display: none;
+}
 .main-header .mobile-menu,
 .main-header-bell{
     float: right;
