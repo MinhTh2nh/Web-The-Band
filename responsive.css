@@ -4,7 +4,32 @@
 }
 /* Tablet*/
 @media (min-width: 740px) and (max-width: 1023px) {
-    
+    .contact-content {
+        padding: 0px 20px;
+    }
+    #about-section {
+        overflow: hidden;
+    }
+    #slider-container{
+        height: 360px;
+    }
+    #slider-container img {
+        overflow: clip;
+        vertical-align: middle;
+    }
+    .col3 {
+        width: 32%;
+    }
+    #about-section .about-text {
+        font-size: var(--font-15px);
+        margin-top: 25px;
+        text-align: justify center;
+        padding: 0 30px;
+        margin-right: 30px;
+    }
+    .quantity,.place-buy-btn{
+        margin-right: 30px;
+    }
 }
 /* Moblie */
 @media (max-width: 740px) {
@@ -51,5 +76,26 @@
     }
     .m-btn {
         margin-right: 8px;
+    }
+    .member-item .member-avt {
+        width: 60%;
+        margin-top: 15px;
+        border-radius: 20px;
+    }
+    .s-col-full{
+        width: 100%;
+        margin-top: 16px;
+    }
+    .col3{
+        width: 100%;
+        margin-top: 16px;
+    }
+    .contact-content {
+        padding: 0px 20px;
+    }
+    .btn{
+        padding : 20px;
+        font-size: 25px;
+        border-radius: 15px;
     }
 }
